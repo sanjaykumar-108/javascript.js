@@ -20,7 +20,7 @@ let isLoggedIn="aman"
 //""=>false
 //"aman"=>true
 
-let someNumber=33
-let stringNumber=string(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+let stringNumber=33
+let convertedToString=String(stringNumber)
+console.log(convertedToString);
+console.log(typeof convertedToString);
